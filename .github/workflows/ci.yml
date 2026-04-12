@@ -30,4 +30,4 @@ jobs:
 
     - name: Rodar Testes (Pytest)
       run: |
-        pytest tests/
+        python -m pytest tests/s

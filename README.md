@@ -1,4 +1,5 @@
 # 💰 Calculadora de Precificação CLI
+![CI Pipeline](https://github.com/Matheus-Pereira1/precificacao-cli/actions/workflows/ci.yml/badge.svg)
 
 ## 📌 O Problema (Dor Real)
 Muitos microempreendedores, artesãos e autônomos têm dificuldade em calcular o preço final de seus produtos. Muitas vezes, eles cobram apenas o custo do material e esquecem de precificar o seu próprio tempo de trabalho, resultando em prejuízos ou desvalorização do seu serviço.
@@ -23,5 +24,5 @@ Execute a aplicação CLI no seu terminal:
 3. Para rodar os testes automatizados: `pytest tests/`
 
 ## 👤 Autor
-- **Seu Nome Completo Aqui**
+- **Matheus Pereira Passos**
 - Versão: 1.0.0
