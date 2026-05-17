@@ -1,4 +1,3 @@
-import pytest
 import requests
 from src.calculadora import obter_cotacao_dolar
 
