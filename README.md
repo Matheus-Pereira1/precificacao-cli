@@ -16,3 +16,16 @@ Certifique-se de ter o Python 3 instalado em sua máquina.
 ```bash
 git clone [https://github.com/Matheus-Pereira1/precificacao-cli.git](https://github.com/Matheus-Pereira1/precificacao-cli.git)
 cd precificacao-cli
+'''
+🧪 Tecnologias Utilizadas
+
+* Python (Lógica principal)
+
+* Requests (Consumo da API REST de Cotações)
+
+* Pytest (Testes automatizados)
+
+* GitHub Actions (Integração Contínua - CI)
+
+👤 Autor
+Matheus Pereira Passos - Desenvolvedor do Projeto
