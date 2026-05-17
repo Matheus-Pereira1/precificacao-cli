@@ -1,28 +1,18 @@
-# 💰 Calculadora de Precificação CLI
-![CI Pipeline](https://github.com/Matheus-Pereira1/precificacao-cli/actions/workflows/ci.yml/badge.svg)
+# Calculadora de Precificação CLI 💰
 
-## 📌 O Problema (Dor Real)
-Muitos microempreendedores, artesãos e autônomos têm dificuldade em calcular o preço final de seus produtos. Muitas vezes, eles cobram apenas o custo do material e esquecem de precificar o seu próprio tempo de trabalho, resultando em prejuízos ou desvalorização do seu serviço.
+Uma ferramenta em linha de comando desenvolvida em Python para ajudar microempreendedores a calcularem o preço justo de venda de seus produtos e serviços, agora com suporte a conversão de moedas em tempo real.
 
-## 💡 A Solução
-Uma aplicação via Linha de Comando (CLI) simples e direta onde o empreendedor insere o custo do material, o tempo gasto na produção e o valor da sua hora de trabalho. O sistema calcula e devolve o preço de venda justo.
+## 🚀 Novidades da Versão 2.0 (Entrega Intermediária)
+- **Integração com API Pública:** Consumo em tempo real da cotação do Dólar (USD) via *AwesomeAPI* para exibição dos valores convertidos para exportação.
+- **Testes de Integração:** Implementação de testes automatizados com `pytest` para garantir a estabilidade da comunicação com o serviço de cotação externo.
+- **Fluxo de Trabalho Profissional:** Gerenciamento de novas features através de GitHub Issues e branch estratégica `entrega-intermediaria`.
 
-## 🛠️ Tecnologias Utilizadas
-- **Linguagem:** Python 3
-- **Testes:** Pytest
-- **Linting:** Flake8
-- **CI/CD:** GitHub Actions
-- **Versionamento:** SemVer (veja o arquivo `VERSION`)
+## 🛠️ Como Executar a Aplicação
 
-## 🚀 Como Executar o Projeto
-Execute a aplicação CLI no seu terminal:
-`python src/calculadora.py`
+### Pré-requisitos
+Certifique-se de ter o Python 3 instalado em sua máquina.
 
-## 🧪 Como rodar Testes e Linting
-1. Instale as dependências: `pip install -r requirements.txt`
-2. Para verificar a qualidade do código (Linting): `flake8 src/ tests/`
-3. Para rodar os testes automatizados: `pytest tests/`
-
-## 👤 Autor
-- **Matheus Pereira Passos**
-- Versão: 1.0.0
+### 1. Clonar o Repositório
+```bash
+git clone [https://github.com/Matheus-Pereira1/precificacao-cli.git](https://github.com/Matheus-Pereira1/precificacao-cli.git)
+cd precificacao-cli
